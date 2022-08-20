@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(desert.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    position: absolute;
+    color: #f2f2f2;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 20px;
+    /* float: left; */
+    left: 16px;
+    padding-top: 10px;
+    margin-right: -30pc;
+}
+
+.menu{
+    width: auto;
+    float:left;
+    height:70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 40px; */
+}
+ul li{
+    list-style: none;
+    margin-left: 63px;
+    margin-top: 27px;
+    font-size: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    transition-duration: 0.4s;
+}
+
+ul li a:hover{
+   transition-duration: 0.4s;
+   color: orangered;
+}
+
+/* .search{
+    width: 400px;
+    float: right;
+    margin-left: 600px;
+    /* padding: 14px 28px; */
+
+    /* font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height:40px;
+     background: transparent; }  */ 
+
+    
+    .content{
+        width:1200px;
+        height:auto;
+        margin: auto;
+        color: #f2f2f2;
+        position: relative;
+    }
+    .content .par{
+        padding-left: 20px;
+        padding-bottom: 25px;
+        font-family: cursive;
+        font-size: 25px;
+        position: absolute;
+        line-height: 1.5;
+        left: 20px;
+        margin-left: -25pc;
+        margin-top: 4pc;
+    }
+
+    .content h1{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 100px;
+        padding-top: 10pc;
+        /* padding-left: 20px; */
+        letter-spacing: 2px;
+        margin-left: -25pc;
+    }
+
+    .content span{
+        color: #000;
+        font-size: 120px; 
+    }
+
+    .form{
+        width: 500px;
+        height: 550px;
+        /* margin-left: 80pc; */
+        background-color: #000;
+        background: linear-gradient(rgba(0,0,0,0.8s)50%, rgba(0,0,0,0.8s)50%);
+        position: absolute;
+        top: 400px;
+        left: 900px;
+        border-radius: 10px;
+        padding: 26px;
+    }
+
+
+    .form h2{
+        width: 250px;
+        font-family: 'Courier New',Courier, monospace;
+        color: #000;
+        background-color: #fff;
+        font-size: 30px;
+        border-radius: 10px;
+        margin: 2px;
+        text-align: center;
+        padding: 8px;
+    } 
+
+.form input{
+    width: 300px;
+    height: 45px;
+    background: transparent;
+    border-bottom: 2px solid #f2f2f2;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+   
+.form input:focus{
+    outline: none
+}
+::placeholder{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.btn {
+    width: 240px;
+    height: 45px;
+    background: #f2f2f2;
+    /* text-decoration: none; */
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #000;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+.btn:hover{
+    color: #000;
+    /* text-decoration: none; */
+    background-color: orangered;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.form .link a{
+    text-decoration: none;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 20px;
+    /* text-align: center; */
+    color: #f2f2f2;
+}
+.form .link a:hover{
+    color: orangered;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.icons{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-top: 6px;
+}
+
+.icons ion-icon:hover{
+    color: orangered;
+}
